@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Metrics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LeetCode Metrics</h1>
+        
+        <div class="username">
+            <h3>Enter Your LeetCode Username:</h3>
+            <div class="textbox">
+                <input type="text" placeholder="LeetCode Username" id="user-text">
+                <button id="search">Search</button>
+            </div>
+        </div>
+        
+        <div class="user-stats">
+            <div class="difficulty-circle easy">
+                <div class="label">Easy</div>
+                <div class="count">0</div>
+            </div>
+            <div class="difficulty-circle medium">
+                <div class="label">Medium</div>
+                <div class="count">0</div>
+            </div>
+            <div class="difficulty-circle hard">
+                <div class="label">Hard</div>
+                <div class="count">0</div>
+            </div>
+        </div>
+        
+        <div class="card-stats">
+            <!-- Dynamically populated cards will go here -->
+            <!-- Example structure:
+            <div class="card">
+                <div class="title">Total Solved</div>
+                <div class="value">150</div>
+            </div>
+            -->
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
